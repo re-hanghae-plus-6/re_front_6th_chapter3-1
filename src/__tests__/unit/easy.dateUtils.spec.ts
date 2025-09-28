@@ -333,7 +333,7 @@ describe('fillZero', () => {
   });
 });
 
-describe.only('formatDate', () => {
+describe('formatDate', () => {
   it('날짜를 YYYY-MM-DD 형식으로 포맷팅한다', () => {
     const date = new Date('2025-07-10');
     const formattedDate = formatDate(date);
