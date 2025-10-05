@@ -8,6 +8,7 @@ export const server = setupServer(...handlers);
 
 beforeAll(() => {
   server.listen();
+  vi.setSystemTime(new Date('2025-10-01'));
 });
 
 beforeEach(() => {
